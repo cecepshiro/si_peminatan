@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/animation_list"
+    android:orientation="vertical"
+    tools:context="com.scdm15.cecep.peminatan.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="15dp"
+            android:src="@drawable/logo"
+            android:scaleType="fitCenter"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Sistem Peminatan Informatika UNJANI"
+            android:fontFamily="Arial"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/editNim"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:background="#20000000"
+            android:hint="NIM"
+            android:padding="15dp"
+            android:textColor="@color/putih"
+            android:textColorHighlight="@color/Chocolate"
+            android:textColorHint="@color/putih"
+            android:textSize="17dp" />
+
+        <EditText
+            android:id="@+id/editPass"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="#20000000"
+            android:hint="Password"
+            android:padding="15dp"
+            android:inputType="textPassword"
+            android:textColor="@color/putih"
+            android:textColorHighlight="@color/CornFlowerBlue"
+            android:textColorHint="@color/putih"
+            android:textSize="17dp" />
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:background="#50000000"
+            android:text="Login"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:textColor="#fff" />
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:background="#50000000"
+            android:text="Register"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:textColor="#fff"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/lblCopyright"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="Arial"
+            android:paddingBottom="10dp"
+            android:paddingTop="50dp"
+            android:textAlignment="center"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
